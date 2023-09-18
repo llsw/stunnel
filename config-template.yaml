@@ -1,0 +1,7 @@
+tunnels:
+  - PrivateKeyPath: ~/.ssh/id_rsa #ssh私钥路径，暂不支持密码
+    User: root  # ssh用户名
+    ServerAddr: "ssh服务器ip:22" # ssh服务器ip和端口
+    RemoteAddr: "需要代理的服务器ip:3306" # 需要代理的服务器ip和端口
+    LocalAddr: "127.0.0.1:4306" # 本地监听的端口，效果：访问127.0.0.1:4306 等于访问需要代理的服务器ip:3306
+  # 可以同时配多个隧道
