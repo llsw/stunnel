@@ -1,4 +1,4 @@
-module stunel
+module stunnel
 
 go 1.20
 

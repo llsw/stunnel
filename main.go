@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os/user"
 	"path/filepath"
-	lib "stunel/lib"
+	lib "stunnel/lib"
 	"sync"
 
 	"github.com/spf13/viper"

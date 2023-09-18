@@ -17,11 +17,11 @@ ssh -> A:22 -> mysql -> C:3306
 ```bash
 # config。yaml需要和二进制程序放在同一个文件夹
 # windows
-stunel_x86_64.exe
+stunnel_amd64.exe
 # linux
-stunel_linux_amd64
+stunnel_amd64_linux
 # macosx 暂不支持arm架构
-stunel_darwin_amd64
+stunnel_amd64_darwin
 ```
 3. 编译运行(需要安装make和go)
 ```bash

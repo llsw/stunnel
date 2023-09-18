@@ -1,16 +1,16 @@
 HOST_DEV="192.168.82.186"
 USER_DEV="root"
-BINARY=bin/linux/stunel
+BINARY=bin/linux/stunnel
 linux:
 	GOOS=linux GOARCH=amd64 go build -o ${BINARY}
-	bin/linux/stunel
+	bin/linux/stunnel
 macosx:
-	GOOS=darwin GOARCH=amd64 go build -o bin/macosx/stunel
-	bin/macosx/stunel
+	GOOS=darwin GOARCH=amd64 go build -o bin/macosx/stunnel
+	bin/macosx/stunnel
 
 windows:
-	GOOS=windows GOARCH=amd64 go build -o bin/windows/stunel
-	bin/windows/stunel
+	GOOS=windows GOARCH=amd64 go build -o bin/windows/stunnel
+	bin/windows/stunnel
 
 run:
 	go run main.go
