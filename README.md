@@ -13,7 +13,7 @@ ssh -> A:22 -> mysql -> C:3306
 ## 使用
 1. 把config-template.yaml复制一份，改名变成config.yaml，  
 修改config.yaml中的相应的服务器配置
-2. 直接在[release](https://github.com/llsw/stunnel/releases)下载二进制程序运行
+2. 非go开发者可以直接在[release](https://github.com/llsw/stunnel/releases)下载二进制程序运行
 ```bash
 # config。yaml需要和二进制程序放在同一个文件夹
 # windows
@@ -23,7 +23,7 @@ stunnel_amd64_linux
 # macosx 暂不支持arm架构
 stunnel_amd64_darwin
 ```
-3. 编译运行(需要安装make和go)
+3. 或者go开发者可以编译运行(需要安装make和go)
 ```bash
 # config。yaml需要和Makefile文件放在同一个文件夹
 # 直接go运行
