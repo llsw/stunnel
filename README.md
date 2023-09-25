@@ -13,7 +13,7 @@ ssh -> A:22 -> mysql -> C:3306
 ## 使用
 1. 把config-template.yaml复制一份，改名变成config.yaml，  
 修改config.yaml中的相应的服务器配置
-2. 直接在release下载二进制程序运行
+2. 直接在[release](https://github.com/llsw/stunnel/releases)下载二进制程序运行
 ```bash
 # config。yaml需要和二进制程序放在同一个文件夹
 # windows
